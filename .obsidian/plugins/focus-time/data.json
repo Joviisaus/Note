@@ -1,0 +1,76 @@
+{
+  "readData": {
+    "Ray Tracing.md": {
+      "fileId": "1766639295382",
+      "filePath": "Ray Tracing.md",
+      "duration": 0,
+      "openCount": 2
+    },
+    "PDF.md": {
+      "fileId": "1766639300213",
+      "filePath": "PDF.md",
+      "duration": 192000,
+      "openCount": 11
+    },
+    "BSDF.md": {
+      "fileId": "1766639301208",
+      "filePath": "BSDF.md",
+      "duration": 0,
+      "openCount": 8
+    },
+    "Basic radiometry.md": {
+      "fileId": "1766639490987",
+      "filePath": "Basic radiometry.md",
+      "duration": 0,
+      "openCount": 1
+    },
+    "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md": {
+      "fileId": "1766639491866",
+      "filePath": "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
+      "duration": 0,
+      "openCount": 1
+    },
+    "Light Rays.md": {
+      "fileId": "1766639492210",
+      "filePath": "Light Rays.md",
+      "duration": 6000,
+      "openCount": 3
+    },
+    "GAMES101.md": {
+      "fileId": "1766639493260",
+      "filePath": "GAMES101.md",
+      "duration": 0,
+      "openCount": 1
+    },
+    "Odeco Frame Field.md": {
+      "fileId": "1766639493734",
+      "filePath": "Odeco Frame Field.md",
+      "duration": 0,
+      "openCount": 2
+    },
+    "reSTIR.md": {
+      "fileId": "1766639498215",
+      "filePath": "reSTIR.md",
+      "duration": 6000,
+      "openCount": 4
+    },
+    "Dynamic Many-Light Sampling for Real-Time Ray Tracing..md": {
+      "fileId": "1766639504212",
+      "filePath": "Dynamic Many-Light Sampling for Real-Time Ray Tracing..md",
+      "duration": 6000,
+      "openCount": 2
+    },
+    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md": {
+      "fileId": "1766639510223",
+      "filePath": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
+      "duration": 48000,
+      "openCount": 3
+    },
+    "Diary/2025-12-25.md": {
+      "fileId": "1766639588211",
+      "filePath": "Diary/2025-12-25.md",
+      "duration": 114000,
+      "openCount": 1
+    }
+  }
+}

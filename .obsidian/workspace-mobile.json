@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "016de2ff5b19b8a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e8c8d939883b332",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4d4b29b93441bd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GAMES101.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GAMES101"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bd1b6ab97ff6294",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8dea4b53aab4a5f6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "4857facbadaae193",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "fb80508b205c7fd7",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "1999e0419160b4b3",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "904bd94fcfcdea0a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "988a5477a46408dd",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "基于调和映射的二次曲面分块网格高质量重建方法.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "62c08d7f2e4fd235",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "4e4741a6880d714b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "c4d4b29b93441bd3",
+  "lastOpenFiles": [
+    "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
+    "Dynamic Many-Light Sampling for Real-Time Ray Tracing..md",
+    "Sphere Harmonic.md",
+    "Ray Tracing.md",
+    "Light Rays.md",
+    "Odeco Frame Field.md",
+    "Rendering.md",
+    "基于调和映射的二次曲面分块网格高质量重建方法.md",
+    "Image/Pasted image 20251224150156.png",
+    "Image/Pasted image 20251222011417.png",
+    "Image/Pasted image 20251222011003.png",
+    "Image/Pasted image 20251221232515.png",
+    "Image/Pasted image 20251221235315.png",
+    "Image/Pasted image 20251222005410.png",
+    "Image/Pasted image 20251221235947.png",
+    "Image/Soft shadow.png",
+    "Image/Pasted image 20251223001153.png",
+    "Image/Pasted image 20251222011313.png",
+    "GAMES101.md",
+    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
+    "PDF.md",
+    "Template/Diary {{date}}.md",
+    "Template",
+    "reSTIR.md",
+    "Whitted-Style.md",
+    "Diary/2025-12-24.md",
+    "Diary/2025-12-25.md",
+    "Diary/2025-12-21.md",
+    "Diary/2025-12-22.md",
+    "Diary/2025-12-23.md",
+    "Diary",
+    "Basic radiometry.md",
+    "BSDF.md",
+    "CCG.md",
+    "CCSweep.md",
+    "DongMingYan2012.md",
+    "GeoHub.md",
+    "Medial Surface.md",
+    "Untitled.base",
+    "Image",
+    "Excalidraw",
+    "Math",
+    "代码库/Libigl",
+    "代码库/CMake",
+    "代码库",
+    "论文/样条/2007 Adaptive patch-based mesh fitting for reverse engineering.pdf"
+  ]
+}
