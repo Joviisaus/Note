@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GAMES101.md",
+                "file": "Odeco Frame Field.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GAMES101"
+              "title": "Odeco Frame Field"
             }
           }
         ],
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Biharmonic",
+                "query": "tag:#Research",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -201,28 +201,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "a6aa7e5090d3208a",
   "lastOpenFiles": [
     "Odeco Frame Field.md",
-    "Ray Tracing.md",
-    "reSTIR.md",
+    "Image/Pasted image 20251226204203.png",
     "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
-    "BSDF.md",
+    "Ray Tracing.md",
+    "凸包线性调和.md",
     "Basic radiometry.md",
+    "BSDF.md",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
-    "GAMES101.md",
     "Light Rays.md",
+    "GAMES101.md",
+    "reSTIR.md",
     "NeuPPS.md",
     "PDF.md",
     "pseudo-swept volume decomposition.md",
     "数值最优化方法.md",
     "基于调和映射的二次曲面分块网格高质量重建方法.md",
-    "凸包线性调和.md",
     "Whitted-Style.md",
     "VSF.md",
     "Spline Based(中轴).md",
@@ -238,13 +237,11 @@
     "Image/screenshot_000000 8.png",
     "Image/screenshot_000000 7.png",
     "Image/screenshot_000000 6.png",
-    "Image/screenshot_000000 5.png",
     "Diary/2025-12-22.md",
     "Template/Diary {{date}}.md",
     "Image",
     "未命名.md",
     "Template/Template-Diary.md",
-    "Diary/2025-12-21.md",
     "Template",
     "Diary",
     "未命名.base",
