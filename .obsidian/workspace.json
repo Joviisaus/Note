@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c52c405e19119d49",
+        "id": "e41e662a1e65e562",
         "type": "tabs",
         "children": [
           {
-            "id": "97be1b89b052d403",
+            "id": "a6aa7e5090d3208a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte Carlo Integration.md",
+                "file": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Monte Carlo Integration"
+              "title": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting"
             }
           }
         ],
@@ -205,17 +205,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97be1b89b052d403",
+  "active": "a6aa7e5090d3208a",
   "lastOpenFiles": [
-    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
-    "Basic radiometry.md",
     "Monte Carlo Integration.md",
     "GAMES101.md",
     "Ray Tracing.md",
     "Odeco Frame Field.md",
-    "Sphere Harmonic.md",
     "Image/Pasted image 20251226204203.png",
+    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "凸包线性调和.md",
+    "Basic radiometry.md",
     "BSDF.md",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
     "Light Rays.md",
@@ -228,6 +227,7 @@
     "Whitted-Style.md",
     "VSF.md",
     "Spline Based(中轴).md",
+    "Sphere Harmonic.md",
     "Image/Pasted image 20251201162105 1.png",
     "Image/Pasted image 20251202150532 1.png",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing..md",
