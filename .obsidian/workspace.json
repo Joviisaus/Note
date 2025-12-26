@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48bcebefada21e93",
+        "id": "e41e662a1e65e562",
         "type": "tabs",
         "children": [
           {
-            "id": "c4dd6f5cb51a1951",
+            "id": "a6aa7e5090d3208a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting"
             }
           }
         ],
@@ -205,21 +205,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4dd6f5cb51a1951",
+  "active": "a6aa7e5090d3208a",
   "lastOpenFiles": [
-    "Light Rays.md",
-    "GAMES101.md",
     "conflict-files-obsidian-git.md",
     "Monte Carlo Integration.md",
+    "GAMES101.md",
     "Ray Tracing.md",
-    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
-    "Basic radiometry.md",
     "Odeco Frame Field.md",
-    "Sphere Harmonic.md",
     "Image/Pasted image 20251226204203.png",
+    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "凸包线性调和.md",
+    "Basic radiometry.md",
     "BSDF.md",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
+    "Light Rays.md",
     "reSTIR.md",
     "NeuPPS.md",
     "PDF.md",
@@ -229,6 +228,7 @@
     "Whitted-Style.md",
     "VSF.md",
     "Spline Based(中轴).md",
+    "Sphere Harmonic.md",
     "Image/Pasted image 20251201162105 1.png",
     "Image/Pasted image 20251202150532 1.png",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing..md",
