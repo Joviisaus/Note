@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monte Carlo Integration.md",
+                "file": "GAMES101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Monte Carlo Integration"
+              "title": "GAMES101"
             }
           }
         ],
@@ -207,11 +207,11 @@
   },
   "active": "97be1b89b052d403",
   "lastOpenFiles": [
+    "Monte Carlo Integration.md",
+    "Ray Tracing.md",
     "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "Basic radiometry.md",
-    "Monte Carlo Integration.md",
     "GAMES101.md",
-    "Ray Tracing.md",
     "Odeco Frame Field.md",
     "Sphere Harmonic.md",
     "Image/Pasted image 20251226204203.png",

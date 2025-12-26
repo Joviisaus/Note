@@ -85,3 +85,10 @@ $$ L = E+KE+K^2E+ K^3E+...$$
 
 ## Path Tracing
 Solve the Rendering Equation by [[Monte Carlo Integration]]
+
+### Compared to [[Whitted-Style]] Ray Tracing
+[[Whitted-Style]]:
+- Always stop at diffuse surfaces.
+- Always perform specular reflections/refractions.
+
+Glossy material cannot be computed correctly.
