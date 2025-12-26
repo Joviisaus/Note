@@ -33,3 +33,4 @@ Each element has a weight $\text{w}_i$
 $$P_{i} = \frac{\mathrm{w}(x_{i})}{\sum_{j=1}^{M} \mathrm{w}(x_{j})}$$
 Reservoir sampling algorithms are classified based on whether element $x_i$ may appear multiple times in the output set.Update rule stochastically replaces $x_i$ in the  reservoir with the next sample $x_{m+1}$ with probability.$$\frac{\text{w}(x_{m+1})}{\sum_{j=1}^{m+1} \text{w}(x_{j})}$$
 To ensure invariant, other samples' probability needs to be changed $$\frac{\mathrm{w}(x_{i})}{\sum_{j=1}^{m} \mathrm{w}(x_{j})} \left(1 - \frac{\mathrm{w}(x_{m+1})}{\sum_{j=1}^{m+1} \mathrm{w}(x_{j})}\right) = \frac{\mathrm{w}(x_{i})}{\sum_{j=1}^{m+1} \mathrm{w}(x_{j})}$$
+## STREAMING RIS WITH SPATIOTEMPORAL REUSE
