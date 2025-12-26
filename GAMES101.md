@@ -144,6 +144,45 @@ def shade(p, wo):
         return (shade(q, -wi) * f_r * cosine) / pdf(wi) / P_RR
 ```
 
+**Transfer the rendering equation**
+Project $\omega_i$ to $A$. 
+$$L_o(x, \omega_o) = \int_{\Omega^+} L_i(x, \omega_i) f_r(x, \omega_i, \omega_o) \cos \theta \, d\omega_i 
+
+= \int_{A} L_i(x, \omega_i) f_r(x, \omega_i, \omega_o) \frac{\cos \theta \cos \theta'}{\|x' - x\|^2} \, dA$$
+![[Screenshot 2025-12-27 at 01.27.55.png]]
+```python
+def shade(p, wo):
+    # --- 1. Russian Roulette Termination ---
+    # Manually specify a probability P_RR (e.g., 0.8)
+    P_RR = 0.8 
+    
+    # Randomly select a value between 0 and 1
+    ksi = random_uniform(0, 1)
+    
+    # If the random value is greater than P_RR, stop the recursion
+    if ksi > P_RR:
+        return 0.0
+
+    # --- 2. Sampling and Ray Casting ---
+    # Randomly choose ONE direction wi based on a PDF
+    wi = sample_hemisphere(pdf)
+    
+    # Trace a ray from point p in direction wi
+    ray = trace_ray(p, wi)
+
+    # --- 3. Contribution Calculation ---
+    # Case A: The ray hits a light source directly
+    if ray.hit_light():
+        # Calculate contribution using the Rendering Equation
+        # We divide by P_RR to keep the estimate unbiased
+        return (L_i * f_r * cos_theta) / pdf(wi) / P_RR
+
+    # Case B: The ray hits another object at point q
+    elif ray.hit_object():
+        q = ray.intersection_point
+        # Recursively call shade for the next bounce
+        return (shade(q, -wi) * f_r * cos_theta) / pdf(wi) / P_RR 
+```
 ### Compared to [[Whitted-Style]] Ray Tracing
 [[Whitted-Style]]:
 - Always stop at diffuse surfaces.
