@@ -10,6 +10,8 @@ The Reflect Radiance $L$ of a point $y$ in direction $\overrightarrow{\omega}$  
 $$L(y, \omega) = \int_{A} \rho(y, \overrightarrow{yx} \leftrightarrow \vec{\omega}) L_{e}(x \rightarrow y) G(x \leftrightarrow y) V(x \leftrightarrow y) \mathrm{d} A_{x},$$
 for [[BSDF]] $ρ$, emitted radiance $L_e$ , mutual visibility $V$ between $x$ and $y$  , and a geometry term $G$ containing inverse squared distance and cosine terms.
 
+To compute this integration, a [[Monte Carlo Integration]] method based researches are built: 
+
 **Importance Sampling(IS)**:Standard Monte Carlo importance sampling
 $$\langle L\rangle_{\mathrm{is}}^{N} = \frac{1}{N} \sum_{i=1}^{N} \frac{f(x_{i})}{p(x_{i})} \approx L.$$
 here choosing $N$ Samples $x_i$ from a [[PDF]] $p(x_i)$

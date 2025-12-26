@@ -71,3 +71,17 @@ Subdivide :
 ![[Pasted image 20251222005410.png]]
 ## Physically Correct Illuminating manner
 To accurately measure the spatial properties of light: [[Basic radiometry]]
+
+### The Rendering Equation
+
+$$L_{o}(\mathrm{p}, \omega_{o}) = L_{e}(\mathrm{p}, \omega_{o}) + \int_{\Omega^{+}} L_{i}(\mathrm{p}, \omega_{i}) f_{r}(\mathrm{p}, \omega_{i}, \omega_{o}) (\mathbf{n} \cdot \omega_{i}) \, \mathrm{d} \omega_{i}$$
+Simplified：
+$$L = E +KL$$
+L:Energy
+E:Self emission
+K:Reflection operator
+
+$$ L = E+KE+K^2E+ K^3E+...$$
+
+## Path Tracing
+Solve the Rendering Equation by [[Monte Carlo Integration]]

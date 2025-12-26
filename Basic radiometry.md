@@ -74,7 +74,7 @@ $$L_{o}(\mathrm{p}, \omega_{o}) = L_{e}(\mathrm{p}, \omega_{o}) + \int_{\Omega^{
 Simplified：
 $$L = E +KL$$
 L:Energy
-E:Self emmision
+E:Self emission
 K:Reflection operator
 
 $$ L = E+KE+K^2E+ K^3E+...$$
