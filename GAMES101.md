@@ -145,7 +145,7 @@ def shade(p, wo):
 ```
 
 **Transfer the rendering equation**
-Project $\omega_i$ to $A$. 
+Project $\omega_i$ to $A$.  
 $$L_o(x, \omega_o) = \int_{\Omega^+} L_i(x, \omega_i) f_r(x, \omega_i, \omega_o) \cos \theta \, d\omega_i 
 
 = \int_{A} L_i(x, \omega_i) f_r(x, \omega_i, \omega_o) \frac{\cos \theta \cos \theta'}{\|x' - x\|^2} \, dA$$
