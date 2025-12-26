@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48bcebefada21e93",
+        "id": "a0bf80ba11b28c73",
         "type": "tabs",
         "children": [
           {
-            "id": "c4dd6f5cb51a1951",
+            "id": "e2f961fa4ab5119b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting"
             }
           }
         ],
@@ -205,13 +205,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4dd6f5cb51a1951",
+  "active": "e2f961fa4ab5119b",
   "lastOpenFiles": [
-    "Light Rays.md",
     "GAMES101.md",
-    "conflict-files-obsidian-git.md",
-    "Monte Carlo Integration.md",
+    "Image/Screenshot 2025-12-27 at 01.06.38.png",
     "Ray Tracing.md",
+    "pseudo-swept volume decomposition.md",
+    "Monte Carlo Integration.md",
+    "conflict-files-obsidian-git.md",
+    "Light Rays.md",
     "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "Basic radiometry.md",
     "Odeco Frame Field.md",
@@ -223,7 +225,6 @@
     "reSTIR.md",
     "NeuPPS.md",
     "PDF.md",
-    "pseudo-swept volume decomposition.md",
     "数值最优化方法.md",
     "基于调和映射的二次曲面分块网格高质量重建方法.md",
     "Whitted-Style.md",
@@ -239,11 +240,9 @@
     "Image/screenshot_000000 9.png",
     "Image/screenshot_000000 8.png",
     "Image/screenshot_000000 7.png",
-    "Image/screenshot_000000 6.png",
     "Diary/2025-12-22.md",
     "Template/Diary {{date}}.md",
     "Image",
-    "未命名.md",
     "Template",
     "Diary",
     "未命名.base",

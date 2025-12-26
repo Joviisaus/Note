@@ -85,6 +85,64 @@ $$ L = E+KE+K^2E+ K^3E+...$$
 
 ## Path Tracing
 Solve the Rendering Equation by [[Monte Carlo Integration]]
+```python
+# Path Tracing Shading Function
+def shade(p, wo):
+    # 1. Randomly sample a direction based on a PDF
+    wi = sample_direction(pdf(w))
+    
+    # 2. Trace a ray from point p in direction wi
+    ray_r = trace_ray(p, wi)
+    
+    # 3. Intersection Logic
+    if ray_r.hit_light():
+        # Direct illumination contribution
+        return (L_i * f_r * cosine) / pdf(wi)
+        
+    elif ray_r.hit_object(at=q):
+        # Recursive indirect illumination (Global Illumination)
+        return (shade(q, -wi) * f_r * cosine) / pdf(wi)
+```
+
+Distributed Ray Tracing if $N != 1$  
+Tracy **More than 1 path** through each pixel and average its radiance.
+![[Screenshot 2025-12-27 at 01.06.38.png]]
+When to stop:
+**Russian Roulette**
+1. Obtain a shading result $L_o$
+2. Manually set a probability $p(0<p<1)$
+3. Return the shading result by $\frac{L_o}{p}$
+4. With probability $1-p$,get $0$
+5. Expect is $E = p\frac{L_o}{p}+p0 = L_o$
+
+```python
+def shade(p, wo):
+    # --- Part 1: Russian Roulette Termination ---
+    # Manually specify a probability P_RR
+    P_RR = 0.8  
+    # Randomly select ksi in a uniform distribution in [0, 1]
+    ksi = random_uniform(0, 1)
+    
+    # If the random value exceeds the threshold, terminate the ray
+    if ksi > P_RR:
+        return 0.0
+
+    # --- Part 2: Ray Casting and Sampling ---
+    # Randomly choose ONE direction wi based on a PDF
+    wi = sample_direction(pdf(w))
+    # Trace a ray r starting at p in direction wi
+    ray_r = trace(p, wi)
+
+    # --- Part 3: Contribution Calculation ---
+    # Case A: Ray hits a light source directly
+    if ray_r.hit_light():
+        return (L_i * f_r * cosine) / pdf(wi) / P_RR
+
+    # Case B: Ray hits another object at point q (Recursive Step)
+    else if ray_r.hit_object(at=q):
+        # Recursively call shade and weight the result by P_RR
+        return (shade(q, -wi) * f_r * cosine) / pdf(wi) / P_RR
+```
 
 ### Compared to [[Whitted-Style]] Ray Tracing
 [[Whitted-Style]]:
