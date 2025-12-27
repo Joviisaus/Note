@@ -50,3 +50,4 @@ where the total energy $E_T$ consists of a Dirichlet energy $E_s$ for measuring 
 
 ### Optimization
 warm start  **L-BFGS** 
+[[Euler Integration]]
