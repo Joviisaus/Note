@@ -49,5 +49,4 @@ E_\Lambda(\Lambda) &= \sum_{i \in \Omega} \| \lambda_i - \lambda_i^{In} \|_2^2,
 where the total energy $E_T$ consists of a Dirichlet energy $E_s$ for measuring the smothness of the field. $E_{\Lambda}$ denotes a soft penalty term to align user-specified stretching ratios $\Lambda^{In}$ ,$\psi$ default as 50.
 
 ### Optimization
-warm start  [[L-BFGS]] 
-[[Euler Integration]]
+warm start  [[L-BFGS]]  by [[Euler Integration]]
