@@ -6,4 +6,5 @@
 ## Method
 To minimize $f(x)$  BFGS approximates the **Newton Step** $Δ x$ 
 
+
 # "Limited-Memory" (L)
