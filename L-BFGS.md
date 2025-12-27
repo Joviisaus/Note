@@ -10,3 +10,4 @@ To minimize $f(x)$  ,BFGS approximates the **Newton Step** $Δ x$ in each step $
 Update matrix $B$ in $$B_{k+1}y_k = s_k$$
 
 # "Limited-Memory" (L)
+Expressing $B_k$ as a sequence of operators applied to an initial simple identity matrix $I$.
