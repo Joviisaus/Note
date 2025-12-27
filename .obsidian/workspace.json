@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-BFGS.md",
+                "file": "Odeco Frame Field.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "L-BFGS"
+              "title": "Odeco Frame Field"
             }
           }
         ],
@@ -208,8 +208,9 @@
   },
   "active": "b78f6f0012939dc4",
   "lastOpenFiles": [
-    "数值最优化方法.md",
+    "Diary/2025-12-22.md",
     "L-BFGS.md",
+    "数值最优化方法.md",
     "Odeco Frame Field.md",
     "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
     "Euler Integration.md",
@@ -243,7 +244,6 @@
     "Image/screenshot_000000.png",
     "Image/screenshot_000000 9.png",
     "Image/screenshot_000000 8.png",
-    "Diary/2025-12-22.md",
     "Image",
     "Template",
     "Diary",
