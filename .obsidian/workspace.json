@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
+                "file": "Odeco Frame Field.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting"
+              "title": "Odeco Frame Field"
             }
           }
         ],
@@ -207,19 +207,19 @@
   },
   "active": "a6aa7e5090d3208a",
   "lastOpenFiles": [
+    "GAMES101.md",
+    "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
+    "Odeco Frame Field.md",
+    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "conflict-files-obsidian-git.md",
     "Image/Screenshot 2025-12-27 at 01.27.55.png",
     "Image/Screenshot 2025-12-27 at 01.06.38.png",
     "Monte Carlo Integration.md",
-    "GAMES101.md",
     "Ray Tracing.md",
-    "Odeco Frame Field.md",
     "Image/Pasted image 20251226204203.png",
-    "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting.md",
     "凸包线性调和.md",
     "Basic radiometry.md",
     "BSDF.md",
-    "Dynamic Many-Light Sampling for Real-Time Ray Tracing.md",
     "Light Rays.md",
     "reSTIR.md",
     "NeuPPS.md",
